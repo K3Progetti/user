@@ -1,11 +1,11 @@
 <?php
 
-namespace K3\User\Controller;
+namespace Esc\User\Controller;
 
-use K3\User\Repository\K3UserRepository;
-use K3\User\Service\K3UserService;
-use K3\RequestParams;
-use K3\Result;
+use Esc\User\Repository\EscUserRepository;
+use Esc\User\Service\EscUserService;
+use Esc\RequestParams;
+use Esc\Result;
 use Exception;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -25,7 +25,7 @@ final class UserController extends AbstractController
     private $userRepository;
     private $userService;
 
-    public function __construct(K3UserRepository $userRepository, K3UserService $userService)
+    public function __construct(EscUserRepository $userRepository, EscUserService $userService)
     {
         $this->userRepository = $userRepository;
         $this->userService = $userService;

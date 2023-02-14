@@ -1,10 +1,10 @@
 <?php
 
-namespace K3\User\Repository;
+namespace Esc\User\Repository;
 
 use Symfony\Component\HttpFoundation\Session\Attribute\AttributeBag;
 
-interface K3UserRepository
+interface EscUserRepository
 {
     /**
      * @param AttributeBag $parameters

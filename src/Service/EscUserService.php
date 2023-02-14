@@ -1,10 +1,10 @@
 <?php
 
-namespace K3\User\Service;
+namespace Esc\User\Service;
 
 use Symfony\Component\HttpFoundation\Session\Attribute\AttributeBag;
 
-interface K3UserService
+interface EscUserService
 {
     /**
      * @param AttributeBag $data

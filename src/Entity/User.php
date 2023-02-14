@@ -1,6 +1,6 @@
 <?php
 
-namespace K3\User\Entity;
+namespace Esc\User\Entity;
 
 use Carbon\Carbon;
 use Doctrine\ORM\Mapping as ORM;
@@ -11,10 +11,10 @@ use Symfony\Component\Security\Core\User\UserInterface;
  * @ORM\Entity
  * @ORM\Table(name="app_user")
  * @ORM\HasLifecycleCallbacks
- * @ORM\Entity(repositoryClass="K3\User\Repository\UserRepository")
+ * @ORM\Entity(repositoryClass="Esc\User\Repository\UserRepository")
  * @UniqueEntity("username")
  */
-class User implements UserInterface, K3User
+class User implements UserInterface, EscUser
 {
     /**
      * @var int

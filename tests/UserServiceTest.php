@@ -1,12 +1,12 @@
 <?php
 
-namespace Test\K3\User;
+namespace Test\Esc\User;
 
 use Assert\AssertionFailedException;
 use Doctrine\ORM\EntityManagerInterface;
-use K3\User\Entity\User;
-use K3\User\Repository\UserRepository;
-use K3\User\Service\UserService;
+use Esc\User\Entity\User;
+use Esc\User\Repository\UserRepository;
+use Esc\User\Service\UserService;
 use PHPUnit\Framework\TestCase;
 use Prophecy\Argument;
 use Prophecy\Prophet;

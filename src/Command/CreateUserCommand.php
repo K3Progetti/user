@@ -1,9 +1,9 @@
 <?php
 
-namespace K3\User\Command;
+namespace Esc\User\Command;
 
 use Assert\AssertionFailedException;
-use K3\User\Service\UserService;
+use Esc\User\Service\UserService;
 use Exception;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;

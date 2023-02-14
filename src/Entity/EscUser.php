@@ -1,8 +1,8 @@
 <?php
 
-namespace K3\User\Entity;
+namespace Esc\User\Entity;
 
-interface K3User
+interface EscUser
 {
     /**
      * @return mixed

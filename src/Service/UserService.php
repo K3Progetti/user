@@ -1,19 +1,19 @@
 <?php
 
-namespace K3\User\Service;
+namespace Esc\User\Service;
 
 use Assert\AssertionFailedException;
 use Doctrine\ORM\EntityManagerInterface;
-use K3\User\Entity\ValueObjects\ChangePasswords;
-use K3\User\Entity\ValueObjects\ComparePasswords;
-use K3\User\Entity\ValueObjects\Email;
-use K3\User\Entity\ValueObjects\Username;
-use K3\User\Entity\User;
-use K3\User\Entity\ValueObjects\Roles;
-use K3\User\Repository\UserRepository;
+use Esc\User\Entity\ValueObjects\ChangePasswords;
+use Esc\User\Entity\ValueObjects\ComparePasswords;
+use Esc\User\Entity\ValueObjects\Email;
+use Esc\User\Entity\ValueObjects\Username;
+use Esc\User\Entity\User;
+use Esc\User\Entity\ValueObjects\Roles;
+use Esc\User\Repository\UserRepository;
 use Symfony\Component\HttpFoundation\Session\Attribute\AttributeBag;
 
-class UserService implements K3UserService
+class UserService implements EscUserService
 {
     private $entityManager;
     private $userRepository;

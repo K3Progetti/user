@@ -1,5 +1,5 @@
 {
-    "name": "K3Progetti/user",
+    "name": "k3progetti/user",
     "type": "library",
     "description": "Symfony base user configuration",
     "keywords": [
@@ -10,8 +10,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "K3\\User\\": "src/",
-            "Test\\K3\\User\\": "tests/"
+            "Esc\\User\\": "src/",
+            "Test\\Esc\\User\\": "tests/"
         }
     },
     "require": {
@@ -20,9 +20,9 @@
         "beberlei/assert": "^3.2",
         "doctrine/doctrine-bundle": "^2.0",
         "doctrine/orm": "^2.7",
-        "K3Progetti/repository": "^1.0",
-        "K3Progetti/requestparams": "^2.0",
-        "K3Progetti/result": "^1.0",
+        "k3progetti/repository": "^1.0",
+        "k3progetti/requestparams": "^2.0",
+        "k3progetti/result": "^1.0",
         "nesbot/carbon": "^2.27",
         "phpspec/prophecy": "^1.10",
         "sensio/framework-extra-bundle": "^5.5",
