@@ -1,5 +1,5 @@
 {
-    "name": "sangio90/user",
+    "name": "K3Progetti/user",
     "type": "library",
     "description": "Symfony base user configuration",
     "keywords": [
@@ -20,9 +20,9 @@
         "beberlei/assert": "^3.2",
         "doctrine/doctrine-bundle": "^2.0",
         "doctrine/orm": "^2.7",
-        "sangio90/repository": "^1.0",
-        "sangio90/requestparams": "^2.0",
-        "sangio90/result": "^1.0",
+        "K3Progetti/repository": "^1.0",
+        "K3Progetti/requestparams": "^2.0",
+        "K3Progetti/result": "^1.0",
         "nesbot/carbon": "^2.27",
         "phpspec/prophecy": "^1.10",
         "sensio/framework-extra-bundle": "^5.5",
